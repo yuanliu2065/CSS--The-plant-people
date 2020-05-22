@@ -1,0 +1,142 @@
+.sidebar {
+    padding: 1.5rem 3rem;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+
+    
+
+    &__logo-box {
+        
+    }
+
+    &__logo {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    &__list {
+        list-style: none;
+
+        display: grid;
+        grid-template-columns: repeat(5, minmax(5rem, max-content));
+        grid-column-gap: 7rem;
+    }
+
+    &__item {
+
+
+    }
+
+    &__link {
+        &,
+        &:link,
+        &:visited {
+            text-decoration:none;
+            color: $color-font;
+            font-weight: bold;
+            font-size: 2rem;
+            text-transform: capitalize;
+            transition: all .5s;
+        }
+
+        &:hover,
+        &:active {
+            font-size: 5rem;
+
+            // box-shadow: 0 1rem 2rem rgba(0,0,0, .1);
+           
+        }
+    }
+
+    &__icon {
+        list-style: none;       
+        
+        display: grid;
+        justify-content: end;
+        align-items: center;
+        grid-template-columns: repeat(2, max-content);
+        grid-column-gap: 2rem;
+
+        &-item {
+            transition: all .4s;
+
+            &:hover,
+            &:active {
+                transform: scale(.8);
+                box-shadow: 0 1rem 1rem rgba(0,0,0, .3);
+            }
+        }
+
+        &-link {
+            &,
+            &:link,
+            &:visited {
+                text-decoration:none;
+                color: $color-font;
+                font-weight: bold;
+                font-size: 2rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    &__svg {
+        height: 3rem;
+        width: 3rem;
+        fill: $color-font;
+        transition: all .4s;
+
+        &:hover {
+            transform: scale(.9);
+        }
+    }
+}
+
+.background {
+    position: relative;
+    
+
+    &--white {
+       height: 25vh;
+    }
+
+    &--orange { 
+       padding: 6rem 10rem;
+       height: 55vh; 
+       background-color: rgba($color-orange-dark, .9);
+       z-index: -1;
+
+       display: grid;
+       grid-template-columns: repeat(2, minmax(max-content, 1fr));
+       align-content: end;
+       align-items: center;
+
+
+
+       &__text {
+        
+       }
+    }
+   
+   &--img {
+        color: #fff;
+        height: 50vh;
+        width: 70vw;
+        background-image: url(../img/portada.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 15vw;
+
+        &__text {
+            position: absolute;
+            top: 18rem;
+            left: 5rem;
+        }
+   }
+    
+}

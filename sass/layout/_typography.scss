@@ -1,0 +1,36 @@
+.heading-1 {
+    font-size: 5rem;
+    &--bold {
+       font-weight: bold; 
+       text-transform: uppercase;
+    }
+}
+
+.heading-2--white {
+    font-size: 4rem;
+    color: #fff;
+
+    &--thin {
+        font-weight: 100;
+        font-family: $font-thin;
+    }
+
+    &--uppercase {
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+}
+
+.heading-2--green {
+    font-size: 4rem;
+    color: $color-font;
+
+    &--thin {
+        font-weight: 100;
+        font-family: $font-thin;
+    }
+    &--uppercase {
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+}

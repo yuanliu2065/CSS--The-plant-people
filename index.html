@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <title>CSS</title>
+</head>
+<body>
+   <header class="header">
+        <div class="sidebar">
+            <div class="sidebar__logo-box">
+                <img src="img/logo.png" alt="Logo" class="sidebar__logo">
+            </div>
+            <ul class="sidebar__list">
+                <li class="sidebar__item"><a href="#shops" class="sidebar__link">shops</a></li>
+                <li class="sidebar__item"><a href="#ourPlants" class="sidebar__link">our plants</a></li>
+                <li class="sidebar__item"><a href="#ourRoots" class="sidebar__link">our roots</a></li>
+                <li class="sidebar__item"><a href="#greenhouse" class="sidebar__link">green guide</a></li>
+                <li class="sidebar__item"><a href="#footer" class="sidebar__link">support</a></li>
+            </ul>
+            <div class="sidebar__icon">
+                <li class="sidebar__icon-item"><a href="#" class="sidebar__icon-link">sign in</a></li>
+                 <svg class="sidebar__svg">
+                     <use xlink:href="img/sprite.svg#icon-user"></use>  
+                 </svg>
+            </div>
+        </div>
+      
+        <div class="background">
+            <div class="background--white"> 
+                
+            </div>
+            <div class="background--orange">
+                <div class="background--orange__text">
+                    <h2 class="heading-2--white heading-2--white--thin">Want us to find your</h2>
+                    <h2 class="heading-2--white heading-2--white--uppercase">perfect plant pal</h2>
+                </div>
+                <button class="btn btn--bg-orange">Go on_ match me</button>
+            </div>
+            <div class="background--img">
+                <div class="background--img__text">
+                    <h1 class="heading-1 u-margin-bottom-small">Happiness&#42;</h1> 
+                    <h1 class="heading-1 heading-1--bold u-margin-bottom-big">delivered</h1>
+                    <p>&#42;Room-ready plants, straight to your door.</p>
+                </div>   
+            </div>
+        </div>
+   </header>
+   <section class="section-product" id="shops">
+       <div class="product-bar">
+           <div class="product-bar--left">
+               the latest & greatest:
+           </div>
+           <div class="product-bar--right">
+               <p class="product-bar--right-text">shop all plants</p>
+               <a href="#" class="product-bar--right-link">></a>
+                   
+           </div>
+       </div>
+       <div class="product-boxs">
+            <div class="product-box">
+                <div class="product__img">
+                    <img src="img/plant-3.jpg" alt="plant" class="product__img--plant">
+                </div>
+                <div class="product__inf">
+                    <div class="product__name">
+                        fiddle leaf fig
+                    </div>
+                    <div class="product__price">
+                        from &#36;53.96
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product__img">
+                    <img src="img/plant-2.jpg" alt="plant" class="product__img--plant">
+                </div>
+                <div class="product__inf">
+                    <div class="product__name">
+                        fiddle leaf fig
+                    </div>
+                    <div class="product__price">
+                        from &#36;53.96
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <div class="product__img">
+                    <img src="img/plant-3.jpg" alt="plant" class="product__img--plant">
+                </div>
+                <div class="product__inf">
+                    <div class="product__name">
+                        fiddle leaf fig
+                    </div>
+                    <div class="product__price">
+                        from &#36;53.96
+                    </div>
+                </div>
+            </div>
+       </div>
+
+   </section>
+   <section class="section-produce" id="ourPlants">
+       <div class="produce__title">
+           <h2 class="heading-2--green heading-2--green--thin">From greenhouse</h2>
+           <h2 class="heading-2--green heading-2--green--uppercase">to your house</h2>
+       </div>
+       <div class="produce__1">
+           <div class="produce__1-left">
+               <p class="produce__1-left--text u-margin-bottom-medium">
+                   Lorem ipsum dolor sit amet constetur adipisicing elit. Similique, cum vero. Consequuntur 
+                     detis, mollitia atque expedita architecto?
+                </p>
+                <button class="btn btn--green" id="tellMore">Tell me more</button>
+           </div>
+           <div class="produce__1-right">
+               <img src="img/greenhouse-1.jpg" alt="greenhouse" class="produce__1-right--img">
+               <p class="produce__1-right--text">Consectetur adipisicing elit. Similique, cum. Consequuntur
+                   explicabo
+                   nullaodio numquam eius corporis</p>
+           </div>
+       </div>
+       <div class="produce__2">
+           <div class="produce__2-left">
+            <img src="img/greenhouse-2.jpg" alt="greenhouse" class="produce__2-left--img">
+            <p class="produce__2-left--text">Similique, cum. Consequuntur explicabo 
+             nulla odio numquam eius corporis</p>
+           </div>
+       </div>
+       <div class="produce__3">
+        <div class="produce__3-center">
+         <img src="img/greenhouse-3.jpg" alt="greenhouse" class="produce__3-center--img">
+         <p class="produce__3-center--text">Similique, cum. Consequuntur explicabo 
+          nulla odio numquam eius corporis</p>
+        </div>
+    </div>
+   </section>
+   <section class="section-exhibition" id="greenhouse">
+       <div class="exhibition__btn">
+         <button class="btn--round">click plants in image to shop!</button>
+       </div>
+       <div class="exhibition__btn--product">
+           <div class="btn--product__box btn--product__box--1 ">
+              <button class="btn--product btn--product--1">&nbsp;</button>
+              <p class="btn--product__text">$34.99</p> 
+           </div>
+           <div class="btn--product__box btn--product__box--2 ">
+                <button class="btn--product btn--product--2">&nbsp;</button> 
+                <p class="btn--product__text">$45.69</p>
+           </div>
+            <div class="btn--product__box btn--product__box--3 ">
+                <button class="btn--product btn--product--3">&nbsp;</button> 
+                <p class="btn--product__text">$67.99</p>
+            </div>
+            <div class="btn--product__box btn--product__box--4 ">
+                <button class="btn--product btn--product--4">&nbsp;</button>
+                <p class="btn--product__text">$143.78</p> 
+            </div>
+            <div class="btn--product__box btn--product__box--5 ">
+                <button class="btn--product btn--product--5">&nbsp;</button> 
+                <p class="btn--product__text">$4.65</p>
+            </div>
+            <div class="btn--product__box btn--product__box--6 ">
+                <button class="btn--product btn--product--6">&nbsp;</button> 
+                <p class="btn--product__text">$209.88</p>
+            </div>
+       </div>
+   </section>
+   <section class="section-product">
+        <div class="product-bar">
+            <div class="product-bar--left">
+                the latest & greatest:
+            </div>
+            <div class="product-bar--right" id="next-plantas" style="cursor: pointer;">
+                <p class="product-bar--right-text">shop all plants</p>
+                <a href="#" class="product-bar--right-link">></a>   
+            </div>
+        </div>
+        <div class="product-boxs" id="product-boxes"></div>
+   </section>
+   <section class="section-tips">
+       <h2 class="heading-2--green heading-2--green--thin u-margin-bottom-small">Avoid plant murder</h2>
+       <h1 class="heading-1 heading-1--bold u-margin-bottom-small">Join our newsletter for</h1>
+       <h1 class="heading-1 heading-1--bold u-margin-bottom-big">leaf-saving tips</h1>
+       <p class="tips__text u-margin-bottom-big">Don't worry, it's all good - ain't everybody got time for junk mail</p>
+       <form class="subscribe-box">
+           <input class="subscribe-input" type="email" placeholder="Email">
+           <button class="btn btn--green--light">Subscribe</button>
+       </form>
+   </section>
+   <footer class="footer" id="footer">
+       <div class="footer--top">
+        <div class="footer__text">
+            <p class="footer__text--1">Keeping plants indoors improves</p>
+            <p class="footer__text--2">your complexion. Win win.</p>
+        </div>
+        <div class="footer__icon">
+            <svg class="footer__svg">
+                <use xlink:href="img/sprite.svg#icon-facebook-with-circle"></use>  
+            </svg>
+            <svg class="footer__svg">
+                <use xlink:href="img/sprite.svg#icon-instagram"></use>  
+            </svg>
+            <svg class="footer__svg">
+                <use xlink:href="img/sprite.svg#icon-twitter"></use>  
+            </svg>
+            <svg class="footer__svg">
+                <use xlink:href="img/sprite.svg#icon-youtube"></use>  
+            </svg>
+            <svg class="footer__svg">
+                <use xlink:href="img/sprite.svg#icon-mail"></use>  
+            </svg>
+        </div>
+       </div>
+       <div class="footer--bottom">
+        <div class="footer__nav">
+            <ul class="footer__nav--list">
+                <li class="footer__nav--item"><a href="#" class="footer__nav--link">Terms & Conditions</a></li>
+                <li class="footer__nav--item"><a href="#" class="footer__nav--link">FAQ</a></li>
+                <li class="footer__nav--item"><a href="#" class="footer__nav--link">Shopping</a></li>
+                <li class="footer__nav--item"><a href="#" class="footer__nav--link">Returns</a></li>
+                <li class="footer__nav--item"><a href="#" class="footer__nav--link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright--text">Copyright 2020 The Plant People All Right Reserved Website by Yuan Liu </p>
+        </div>
+       </div>
+   </footer>
+   <section id="popup">
+       <div id="popup-content">
+           Contenido del popup
+           <button id="cerrarPopup" style="cursor: pointer;">Cerrar</button>
+        </div>
+   </section>
+   <script src="js/index.js"></script>
+</body>
+</html>

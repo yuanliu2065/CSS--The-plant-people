@@ -1,0 +1,43 @@
+.section-product {
+    margin: 6rem 15rem;
+}
+
+.section-produce {
+    color: $color-font;
+    margin: 7rem 15rem 0 15rem;
+    padding: 10rem 5rem 15rem 5rem;
+    background-color: $color-orange-light;
+
+    display: grid;
+    grid-template-rows: 10vh repeat(3, 30vh);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+}
+
+.section-exhibition {
+    margin: 0 15rem 7rem 15rem;
+    height: 100vh;
+
+    background-image: url(../img/big-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    
+}
+
+.exhibition__btn--product {
+    width: 100%;
+    height: 100%;
+}
+
+.section-tips {
+    color: $color-font; 
+    margin: 0 15rem;
+    padding: 10rem 15rem;
+    background-color: $color-primary-light;
+
+    display: grid;
+    justify-items: center;
+    align-self: center;
+}
